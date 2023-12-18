@@ -1,0 +1,35 @@
+@import url('../../../styles.css');
+footer{
+    background-color: var(--dark-grey);
+    height: 180px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px; 
+    font-family: var(--gotham-light);
+    font-size: 14px;
+    color: white;
+}
+svg{
+    width: 7%; 
+    height: auto; 
+    max-width: 100%; 
+}
+/* mobile */
+@media screen and (max-width: 767px) {
+    footer {
+        height: 120px;
+        padding-top: 1em;
+    }
+
+    svg {
+        width: 59%; 
+    }
+    p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
